@@ -2,3 +2,6 @@
 
 (fn[lst]
     (map #(max % (- %)) lst))
+
+(fn[lst]
+    (map #(Math/abs %) lst))
